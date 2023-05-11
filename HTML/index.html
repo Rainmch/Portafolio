@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/index.css">
     <title>Jorge F Gomez</title>
 </head>
 <body >
-    <nav class="navbar">
+    <!-- <nav class="navbar">
         <header>Mi portafolio</header>
         <ul class="navlist">
             <li class="nav-item"><a class="navbarLink" href="./index.html">Home</a></li>
@@ -17,64 +18,165 @@
             <li class="nav-item"><a class="navbarLink" href="./experiencia.html">Experiencia</a></li>
             <li class="nav-item"><a class="navbarLink" href="./proyectos.html">Proyectos</a></li>
         </ul>
-    </nav>
-    <div class="body-grid">
-    <aside class="aside-grid">
-        <div>
-            <img class="img-fluid"src="../src/fer.jpeg" alt="">
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg back-color ">
+        <div class="container-fluid ">
+          <a class="navbar-brand navbar-letter" href="#">Mi Portafolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars" style="color: #e0ecf7;"></i>
+          </button>
+          <div class="collapse navbar-collapse navbar-letter" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link  navbar-letter" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link navbar-letter" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar-letter ">Disabled</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </aside>
-    <article class="main">
-        <div class="container">
-            <img src="" alt="">
-            <h1>Un poco sobre mi</h1>
-            <p>Soy un estudiante e ingeniería en Software, estudiante en el bootcamp de Generation México en el que obtuve conocimientos sobre HTML5, CSS, JavaScript y Java. 
-                Me considero una persona apasionada por la tecnología y la programación. 
-                Mi hobbie favorito es jugar videojuegos y ver series o películas. 
-            </p>
-            <div class="container">
+      </nav>
+    
+        <div class="container  ">
+            <table class="table table-borderless">
+                <thead >
+                    <tr class="tableHeader">
+                        <th scope="row">Un poco sobre mi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                        <img class=" profile-pic"src="../src/fer.png" alt="">
+                    </td>
+                    <td>
+                        <section>
+                            <p>Soy un estudiante e ingeniería en Software, estudiante en el bootcamp de Generation México en el que obtuve conocimientos sobre HTML5, CSS, JavaScript y Java. 
+                                Me considero una persona apasionada por la tecnología y la programación. 
+                                Mi hobbie favorito es jugar videojuegos y ver series o películas. 
+                            </p>
+                        </section>
+                    </td>
+                    </tr>
+                </tbody>
+            </table>
+
+                <table class="table table-borderless">
+                 
+                    <thead>
+                        <tr>
+                            <th scope="row">Tecnologias utilizadas:</th>
+                        </tr>
+                    </thead>
+                  <tr>
+                        <td >
+                            <a href="http://"><img class=" programIcons" src="https://th.bing.com/th/id/R.e5259ee3bb8f9aa6538b85c39dc8694b?rik=XX0EvA7bkyNf%2fw&pid=ImgRaw&r=0" alt=""></a>
+                        </td>
+                        <td >
+                            <a href="http://"><img class="programIcons" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt=""></a>
+                        </td>
+                        <td >
+                            <a href="http://"><img class=" programIcons" src="https://th.bing.com/th/id/OIP.pqcPskVdTrJqfhZ-Z49AtQHaHn?pid=ImgDet&rs=1" alt=""></a>
+                        </td>
+                        <td >
+                            <a href=""><img class=" programIcons" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt=""></a>
+                        </td>
+                        <td >
+                            <a href="http://"><img class=" programIcons " src="https://th.bing.com/th/id/R.79309b751fc01736ea1cc3d786b25651?rik=rurHNX620eLm%2fA&pid=ImgRaw&r=0" alt=""></a>
+                        </td>
+                    </tr>
+                
+                </table>
+              
+            
+            <!-- <table class="table">
+                
+                <tr >
+                    <p>Un poco sobre mi</p>
+                    <td class="p-2 ">
+                         <img class=" profile-pic"src="../src/fer.png" alt="">
+                    </td>
+                    <td class="p-2 ">
+                        <section>
+                            <p>Soy un estudiante e ingeniería en Software, estudiante en el bootcamp de Generation México en el que obtuve conocimientos sobre HTML5, CSS, JavaScript y Java. 
+                                Me considero una persona apasionada por la tecnología y la programación. 
+                                Mi hobbie favorito es jugar videojuegos y ver series o películas. 
+                            </p>
+                        </section>
+                    </td>
+                </tr>
+                <tr >
+                    <p>Tecnologias utilizadas:</p>
+                    
+                        <td >
+                            <a href="http://"><img class="img-fluid programIcons" src="https://th.bing.com/th/id/R.e5259ee3bb8f9aa6538b85c39dc8694b?rik=XX0EvA7bkyNf%2fw&pid=ImgRaw&r=0" alt=""></a>
+                        </td>
+                        <td >
+                            <a href="http://"><img class="img-fluid programIcons" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt=""></a>
+                        </td>
+                        <td >
+                            <a href="http://"><img class="img-fluid programIcons" src="https://th.bing.com/th/id/OIP.pqcPskVdTrJqfhZ-Z49AtQHaHn?pid=ImgDet&rs=1" alt=""></a>
+                        </td>
+                        <td >
+                            <a href=""><img class="img-fluid programIcons" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt=""></a>
+                        </td>
+                        <td >
+                            <a href="http://"><img class="img-fluid programIcons " src="https://th.bing.com/th/id/R.79309b751fc01736ea1cc3d786b25651?rik=rurHNX620eLm%2fA&pid=ImgRaw&r=0" alt=""></a>
+                        </td>
+                </tr>
+            </table>
+        </div> -->
+
+            <!-- <div class="tecnologias container" >
                 <header>Tecnologias utilizadas: </header>
                 <table class="table-primary">
                     <tr class="table-primary mx-auto">
-                        <th class="p-2">
+                        <th class="p-2 ">
                             <a href="http://"><img class="img-fluid programIcons" src="https://th.bing.com/th/id/R.e5259ee3bb8f9aa6538b85c39dc8694b?rik=XX0EvA7bkyNf%2fw&pid=ImgRaw&r=0" alt=""></a>
                         </th>
-                        <th class="p-2">
+                        <th class="p-2 ">
                             <a href="http://"><img class="img-fluid programIcons" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt=""></a>
                         </th>
-                        <th class="p-2">
+                        <th class="p-2 ">
                             <a href="http://"><img class="img-fluid programIcons" src="https://th.bing.com/th/id/OIP.pqcPskVdTrJqfhZ-Z49AtQHaHn?pid=ImgDet&rs=1" alt=""></a>
                         </th>
-                        <th class="p-2">
+                        <th class="p-2 ">
                             <a href=""><img class="img-fluid programIcons" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt=""></a>
                         </th>
-                        <th class="p-2">
-                            <a href="http://"><img class="img-fluid programIcons" src="https://th.bing.com/th/id/R.79309b751fc01736ea1cc3d786b25651?rik=rurHNX620eLm%2fA&pid=ImgRaw&r=0" alt=""></a>
+                        <th class="p-2 ">
+                            <a href="http://"><img class="img-fluid programIcons " src="https://th.bing.com/th/id/R.79309b751fc01736ea1cc3d786b25651?rik=rurHNX620eLm%2fA&pid=ImgRaw&r=0" alt=""></a>
                         </th>
                     </tr>
                 </table>
+            </div> -->
+ 
+        <div >
+            <header>Me encanta tomar fotografías</header>
+            <div class="row ">
+                <div class="col">
+                    <img src="../src/building.JPG" class="card-img" alt="...">
+                </div>
+                <div class="col">
+                    <img src="../src/capibara.JPG" class="card-img" alt="...">
+                </div>
             </div>
+            
         </div>
-    </article>
-    <div class="container">
-        <header>Me encanta tomar fotografías</header>
-        <div class="row ">
-            <div class="col">
-                <img src="../src/building.JPG" class="card-img" alt="...">
-            </div>
-            <div class="col">
-                <img src="../src/capibara.JPG" class="card-img" alt="...">
-            </div>
-        </div>
-        
     </div>
-    </div>
-    <footer class="footer-grid">
+    <footer >
         <section>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At quasi assumenda eos tempora maxime quam officiis aliquid similique ipsam! Voluptatibus sequi aut praesentium, illum incidunt consequuntur obcaecati tempora non excepturi.</p>
             
         </section>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/485a3f997f.js" crossorigin="anonymous"></script>
+</body>
 
 </body>
 </html>

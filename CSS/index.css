@@ -4,6 +4,45 @@
     margin: 0;
     color: white;
 }
+.profile-pic{
+
+    border-radius: 50%;
+    height: 15rem;
+    width: 14rem;
+    background-color: lightslategrey;
+}
+
+ .programIcons{
+    height: fit-content;
+    width: fit-content;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    height: 80px;
+
+    border-radius: 20%;
+    background-color: lightslategrey;
+    padding: 10px;
+} 
+.tableHeader{
+     align-items: center;
+}
+/* .table-primary{
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+} */
+/* .sobreMi{
+    justify-content: center;
+    align-items: center;
+
+} */
+.tecnologias {
+    text-align: center;
+    justify-content: center;
+}
+
+
+
 html{
     height: 100%;
 }
@@ -11,51 +50,13 @@ body{
     background-color: #395575;
     min-height: 100%;
 }
-.navbar{
-    background-color:black ;
-    justify-content: center;
-}
-.navlist{
-    display: inline-flex;
-    list-style: none;
-}
-.nav-item{
-    padding-left: 15px;
-    padding-top: 15px;
-    
-}
-.navbarLink{
-    text-decoration: none;
+
+.navbar-letter{
     color: white;
 }
-.aside-grid{
-    grid: aside-grid;
-    background-color: #242F33;
-}
-.main{
-    grid: main;
-    text-align: center;
-    min-height: 300px;
-}
-.footer-grid{
-    grid-area: footer-grid;
+.back-color{
     background-color: black;
 }
-.body-grid{
-    display: grid;
-    grid-template-columns: 25% auto;
-    grid-template-rows: max-content;
-    grid-template-areas:
-    "aside-grid main"
-    "footer-grid footer-grid"
-    ;
-}
-.programIcons{
-    height: 6rem;
-    width: 6rem;
-}
-
-.photos{
-    height: 10rem;
-    width: 8rem;
+.navbar-toggler{
+    color: white;
 }
